@@ -7,10 +7,10 @@ import { useScrollAnimation } from "@/hooks/use-scroll-animation"
 const testimonials = [
   {
     quote:
-      "Anandi transformed our entire brand identity. Her attention to detail and creative intuition resulted in a visual system that perfectly captures who we are. Working with her was seamless.",
-    name: "Priya Sharma",
-    role: "Founder, Aurora Wellness",
-    company: "Aurora",
+      "I hired Anandi for my SaaS dashboard redesign and the results were remarkable. User satisfaction scores jumped dramatically. She truly understands how to make complex data approachable. Her attention to detail and creative intuition resulted in a visual system that perfectly captures everything. Working with her was seamless.",
+    name: "Dhruv Saini",
+    role: "Data Analyst",
+    company: "Tech Solutions",
   },
   {
     quote:

@@ -14,19 +14,19 @@ export interface Project {
 
 export const projects: Project[] = [
   {
-    id: "aurora-branding",
-    title: "Aurora Branding",
-    category: "Branding",
+    id: "wanda",
+    title: "Wanda",
+    category: "Illustration",
     description:
       "A complete brand identity for Aurora, a wellness and meditation app. The design captures serenity through fluid forms and a calming color palette, creating an immersive visual experience that resonates with mindful living.",
-    thumbnail: "/images/projects/aurora-thumb.jpg",
+    thumbnail: "/images/portfolio_imgs/wanda.jpeg",
     images: [
-      "/images/projects/aurora-1.jpg",
-      "/images/projects/aurora-2.jpg",
-      "/images/projects/aurora-3.jpg",
+      "/images/portfolio_imgs/wanda.jpeg",
+      // "/images/projects/aurora-2.jpg",
+      // "/images/projects/aurora-3.jpg",
     ],
-    role: "Lead Brand Designer",
-    tools: ["Illustrator", "Photoshop", "Figma"],
+    role: "Illustrator",
+    tools: ["Illustrator", "ProCreate", "InDesign"],
     process:
       "Starting with mood boards and sketches, I explored organic shapes and gradients before refining the final mark. Typography pairing and color theory drove every decision.",
     results:
@@ -34,36 +34,16 @@ export const projects: Project[] = [
     year: "2025",
   },
   {
-    id: "bloom-packaging",
-    title: "Bloom Packaging",
-    category: "Packaging",
-    description:
-      "Premium packaging design for Bloom, an organic skincare line. Earthy textures meet modern minimalism, showcasing the product's natural ingredients through tactile and visual storytelling.",
-    thumbnail: "/images/projects/bloom-thumb.jpg",
-    images: [
-      "/images/projects/bloom-1.jpg",
-      "/images/projects/bloom-2.jpg",
-      "/images/projects/bloom-3.jpg",
-    ],
-    role: "Packaging Designer",
-    tools: ["Illustrator", "Photoshop", "InDesign"],
-    process:
-      "Research into sustainable materials led the physical design, while hand-drawn botanical illustrations brought warmth. Multiple prototypes were tested before the final production run.",
-    results:
-      "Packaging won a Gold at the DIELINE Awards. Shelf appeal contributed to a 25% sales uplift in the first month.",
-    year: "2025",
-  },
-  {
-    id: "nexus-ui",
-    title: "Nexus Dashboard",
+    id: "SaaS-dashboard-ui",
+    title: "SaaS Dashboard",
     category: "UI/UX",
     description:
       "A sleek analytics dashboard for a fintech startup. Data-dense interfaces were simplified through clear hierarchy, intuitive navigation, and thoughtful data visualization.",
-    thumbnail: "/images/projects/nexus-thumb.jpg",
+    thumbnail: "/images/portfolio_imgs/dashboard.png",
     images: [
-      "/images/projects/nexus-1.jpg",
-      "/images/projects/nexus-2.jpg",
-      "/images/projects/nexus-3.jpg",
+      "/images/portfolio_imgs/dashboard.png",
+      // "/images/portfolio_imgs/saas-dashboard-2.jpg",
+      // "/images/portfolio_imgs/saas-dashboard-3.jpg",
     ],
     role: "UI/UX Designer",
     tools: ["Figma", "Framer", "After Effects"],
@@ -71,42 +51,66 @@ export const projects: Project[] = [
       "User research and journey mapping guided the information architecture. Interactive prototypes were tested with 30+ users to refine the final design.",
     results:
       "Task completion time reduced by 35%. User satisfaction scores improved from 3.2 to 4.7 out of 5.",
-    year: "2024",
+    year: "2026",
   },
   {
-    id: "terra-logo",
-    title: "Terra Coffee",
-    category: "Logo Design",
+    id: "dark-spirits",
+    title: "Dark Spirits",
+    category: "Illustration",
     description:
       "A distinctive logo and visual identity for Terra Coffee, an artisan roastery. The mark combines a mountain silhouette with a coffee bean, embodying the brand's origin story and craft.",
-    thumbnail: "/images/projects/terra-thumb.jpg",
+    thumbnail: "/images/portfolio_imgs/dark.jpeg",
     images: [
-      "/images/projects/terra-1.jpg",
-      "/images/projects/terra-2.jpg",
-      "/images/projects/terra-3.jpg",
+      "/images/portfolio_imgs/dark.jpeg",
+      // "/images/portfolio_imgs/dark-spirits-2.jpg",
+      // "/images/portfolio_imgs/dark-spirits-3.jpg",
     ],
-    role: "Brand Identity Designer",
-    tools: ["Illustrator", "Photoshop"],
+    role: "Illustrator",
+    tools: ["Illustrator", "ProCreate", "InDesign"],
     process:
       "Over 50 thumbnail sketches were refined into 5 concepts. Client workshops narrowed the direction before detailed vector execution and brand guideline creation.",
     results:
       "The brand launched with 3 flagship locations and the identity system received coverage in Brand New.",
-    year: "2024",
+    year: "2025",
   },
+  
+
   {
-    id: "waves-social",
-    title: "Waves Festival",
-    category: "Social Media",
+    id: "telephone",
+    title: "Telephone",
+    category: "Illustration",
+    description:
+      "An illustration series for a vintage telephone collection. Each piece captures the essence of classic design through clean lines and nostalgic color palettes.",
+    thumbnail: "/images/portfolio_imgs/telephone.jpeg",
+    images: [
+      "/images/portfolio_imgs/telephone.jpeg",
+      // "/images/projects/bloom-2.jpg",
+      // "/images/projects/bloom-3.jpg",
+    ],
+    role: "Illustrator",
+    tools: ["Illustrator", "Photoshop", "InDesign"],
+    process:
+      "Research into sustainable materials led the physical design, while hand-drawn botanical illustrations brought warmth. Multiple prototypes were tested before the final production run.",
+    results:
+      "Packaging won a Gold at the DIELINE Awards. Shelf appeal contributed to a 25% sales uplift in the first month.",
+    year: "2023",
+  },
+  
+  
+  {
+    id: "icarus",
+    title: "Icarus",
+    category: "Illustration",
     description:
       "A vibrant social media campaign for Waves Music Festival. Dynamic compositions and bold typography captured the festival's energy across Instagram, TikTok, and event signage.",
-    thumbnail: "/images/projects/waves-thumb.jpg",
+    thumbnail: "/images/portfolio_imgs/icarus.jpeg",
     images: [
-      "/images/projects/waves-1.jpg",
-      "/images/projects/waves-2.jpg",
-      "/images/projects/waves-3.jpg",
+      "/images/portfolio_imgs/icarus.jpeg",
+      // "/images/portfolio_imgs/icarus-2.jpeg",
+      // "/images/portfolio_imgs/icarus-3.jpeg",
     ],
-    role: "Creative Director",
-    tools: ["Photoshop", "After Effects", "Premiere Pro"],
+    role: "Illustrator",
+    tools: ["Illustrator", "ProCreate", "InDesign"],
     process:
       "The visual language was built around sound waves and neon palettes. Animated templates enabled rapid content creation during the 3-day event.",
     results:
@@ -114,16 +118,16 @@ export const projects: Project[] = [
     year: "2024",
   },
   {
-    id: "luna-illustration",
-    title: "Luna Children's Book",
+    id: "falling-cage",
+    title: "Falling Cage",
     category: "Illustration",
     description:
       "Whimsical illustrations for a children's picture book about a curious cat exploring the night sky. Soft watercolor textures meet digital precision in a dreamlike visual narrative.",
-    thumbnail: "/images/projects/luna-thumb.jpg",
+    thumbnail: "/images/portfolio_imgs/jail.jpeg",
     images: [
-      "/images/projects/luna-1.jpg",
-      "/images/projects/luna-2.jpg",
-      "/images/projects/luna-3.jpg",
+      "/images/portfolio_imgs/jail.jpeg",
+      // "/images/portfolio_imgs/falling-cage-2.jpg",
+      // "/images/portfolio_imgs/falling-cage-3.jpg",
     ],
     role: "Illustrator",
     tools: ["Procreate", "Photoshop", "InDesign"],
@@ -131,19 +135,19 @@ export const projects: Project[] = [
       "Character development began with pencil sketches, evolving through color studies. Each spread was designed to guide the reader's eye through the story.",
     results:
       "Published by Penguin Random House. Nominated for the Kate Greenaway Medal for illustration.",
-    year: "2023",
+    year: "2024",
   },
   {
-    id: "prism-motion",
-    title: "Prism Motion Reel",
-    category: "Motion Design",
+    id: "reincarnation",
+    title: "Reincarnation",
+    category: "Illustration",
     description:
       "An energetic motion design reel for Prism Studios showcasing kinetic typography, logo animations, and product reveals. Every frame is designed to captivate and communicate.",
-    thumbnail: "/images/projects/prism-thumb.jpg",
+    thumbnail: "/images/portfolio_imgs/reincarnation.jpeg",
     images: [
-      "/images/projects/prism-1.jpg",
-      "/images/projects/prism-2.jpg",
-      "/images/projects/prism-3.jpg",
+      "/images/portfolio_imgs/reincarnation.jpeg",
+      // "/images/portfolio_imgs/reincarnation-2.jpeg",
+      // "/images/portfolio_imgs/reincarnation-3.jpeg",
     ],
     role: "Motion Designer",
     tools: ["After Effects", "Cinema 4D", "Illustrator"],
@@ -151,46 +155,46 @@ export const projects: Project[] = [
       "Storyboarding drove the narrative arc. Each segment was crafted with precise timing, easing curves, and sound design integration.",
     results:
       "Reel garnered 100K+ views on Vimeo and was featured on Motionographer.",
-    year: "2023",
+    year: "2024",
   },
   {
-    id: "echo-branding",
-    title: "Echo Fitness",
-    category: "Branding",
+    id: "water",
+    title: "Water",
+    category: "Illustration",
     description:
-      "A bold and energetic brand identity for Echo Fitness, a boutique gym chain. Sharp geometry and a high-contrast palette convey strength, discipline, and movement.",
-    thumbnail: "/images/projects/echo-thumb.jpg",
+      "An abstract illustration series exploring the fluidity and power of water. Each piece is a unique interpretation of movement, reflection, and depth.",
+    thumbnail: "/images/portfolio_imgs/water.jpeg",
     images: [
-      "/images/projects/echo-1.jpg",
-      "/images/projects/echo-2.jpg",
-      "/images/projects/echo-3.jpg",
+      "/images/portfolio_imgs/water.jpeg",
+      // "/images/portfolio_imgs/water-2.jpg",
+      // "/images/portfolio_imgs/water-3.jpg",
     ],
-    role: "Brand Designer",
-    tools: ["Illustrator", "Figma", "Photoshop"],
+    role: "Illustrator",
+    tools: ["Procreate", "Photoshop", "Illustrator"],
     process:
-      "Competitive analysis and brand positioning workshops shaped the strategic foundation. Iterative design sprints with the founding team honed the final system.",
+      "Each illustration was developed through iterative sketching and digital refinement. The series explores the interplay of light and shadow in water.",
     results:
       "Brand launched to a waitlist of 5,000+. Merchandise line sold out within 48 hours.",
-    year: "2023",
+    year: "2024",
   },
-  {
-    id: "solstice-editorial",
-    title: "Solstice Magazine",
-    category: "Editorial",
-    description:
-      "Art direction and layout design for Solstice, a quarterly culture and design magazine. Each issue features distinctive editorial spreads that balance typography, photography, and white space.",
-    thumbnail: "/images/projects/solstice-thumb.jpg",
-    images: [
-      "/images/projects/solstice-1.jpg",
-      "/images/projects/solstice-2.jpg",
-      "/images/projects/solstice-3.jpg",
-    ],
-    role: "Art Director",
-    tools: ["InDesign", "Photoshop", "Lightroom"],
-    process:
-      "Each issue begins with a thematic mood board. Grid systems and typographic hierarchies are tailored per issue while maintaining brand consistency.",
-    results:
-      "Circulation grew 60% over 4 issues. Featured in Communication Arts Design Annual.",
-    year: "2023",
-  },
+  // {
+  //   id: "solstice-editorial",
+  //   title: "Solstice Magazine",
+  //   category: "Editorial",
+  //   description:
+  //     "Art direction and layout design for Solstice, a quarterly culture and design magazine. Each issue features distinctive editorial spreads that balance typography, photography, and white space.",
+  //   thumbnail: "/images/projects/solstice-thumb.jpg",
+  //   images: [
+  //     "/images/projects/solstice-1.jpg",
+  //     "/images/projects/solstice-2.jpg",
+  //     "/images/projects/solstice-3.jpg",
+  //   ],
+  //   role: "Art Director",
+  //   tools: ["InDesign", "Photoshop", "Lightroom"],
+  //   process:
+  //     "Each issue begins with a thematic mood board. Grid systems and typographic hierarchies are tailored per issue while maintaining brand consistency.",
+  //   results:
+  //     "Circulation grew 60% over 4 issues. Featured in Communication Arts Design Annual.",
+  //   year: "2023",
+  // },
 ]

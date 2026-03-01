@@ -101,14 +101,6 @@ export function Contact() {
                 Have a project in mind? I&apos;d love to hear about it. Drop me
                 a message and let&apos;s start the conversation.
               </p>
-              <p className="max-w-md text-sm text-muted-foreground">
-                <em>
-                  This form will send an email to <strong>dhruvsaini137@gmail.com</strong>.
-                  No setup is required for a preview link to appear – it works out
-                  of the box. If you want the message delivered for real, add your
-                  SMTP details in <code>.env.local</code>.
-                </em>
-              </p>
             </div>
 
             <div className="space-y-5">
@@ -119,7 +111,7 @@ export function Contact() {
                 <div>
                   <p className="text-sm text-muted-foreground">Email</p>
                   <p className="font-medium text-foreground">
-                    hello@anandibhutani.com
+                    anandibhutani0@gmail.com
                   </p>
                 </div>
               </div>
