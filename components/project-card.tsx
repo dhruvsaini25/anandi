@@ -1,6 +1,7 @@
 "use client"
 
 import { useRef, useState } from "react"
+import { Play } from "lucide-react"
 import type { Project } from "@/lib/projects-data"
 
 const delays = [
@@ -64,6 +65,15 @@ export function ProjectCard({ project, index, isVisible, onClick }: ProjectCardP
           <div className="pointer-events-none absolute inset-0 rounded-xl bg-gradient-to-t from-black/24 to-transparent opacity-0 transition-opacity duration-500 group-hover:opacity-100" />
           <div className="pointer-events-none absolute inset-0 rounded-xl transition-shadow duration-500 group-hover:shadow-[0_12px_40px_rgba(2,6,23,0.28)]" />
         </div>
+
+        {/* Video Play Button */}
+        {project.video && (
+          <div className="pointer-events-none absolute inset-0 flex items-center justify-center">
+            <div className="rounded-full bg-primary/80 p-4 backdrop-blur-md shadow-lg transition-all duration-500 group-hover:bg-primary group-hover:scale-125 group-hover:shadow-xl">
+              <Play className="h-6 w-6 fill-white text-white" strokeWidth={1.5} />
+            </div>
+          </div>
+        )}
 
         {/* Custom circular pointer that follows the mouse and shows "View" */}
         <div

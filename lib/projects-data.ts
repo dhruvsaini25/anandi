@@ -5,6 +5,7 @@ export interface Project {
   description: string
   thumbnail: string
   images: string[]
+  video?: string
   role: string
   tools: string[]
   process: string
@@ -176,6 +177,69 @@ export const projects: Project[] = [
     results:
       "Brand launched to a waitlist of 5,000+. Merchandise line sold out within 48 hours.",
     year: "2024",
+  },
+  {
+    id: "edit1",
+    title: "Motion Edit",
+    category: "Motion Design",
+    description:
+      "A dynamic motion design piece showcasing fluid animations and transitions. This project demonstrates the seamless integration of design principles with video animation, creating a captivating visual experience.",
+    thumbnail: "/images/portfolio_imgs/edit1-thumb.jpg",
+    video: "/images/portfolio_imgs/edit1.mp4",
+    images: [
+      "/images/portfolio_imgs/edit1.mp4",
+      // "/images/portfolio_imgs/water.jpeg",
+      // "/images/portfolio_imgs/water-2.jpg",
+    ],
+    role: "Motion Designer",
+    tools: ["After Effects", "Premiere Pro", "Cinema 4D"],
+    process:
+      "The project began with storyboarding and concept development. Each frame was meticulously crafted using advanced animation techniques and color grading to achieve the desired visual impact.",
+    results:
+      "The motion piece received 25K+ views and was featured on several design platforms, showcasing the effective use of animation in storytelling.",
+    year: "2025",
+  },
+  {
+    id: "edit2",
+    title: "Motion Edit",
+    category: "Motion Design",
+    description:
+      "A dynamic motion design piece showcasing fluid animations and transitions. This project demonstrates the seamless integration of design principles with video animation, creating a captivating visual experience.",
+    thumbnail: "/images/portfolio_imgs/edit2-thumb.jpg",
+    video: "/images/portfolio_imgs/edit2.mp4",
+    images: [
+      "/images/portfolio_imgs/edit2.mp4",
+      // "/images/portfolio_imgs/water.jpeg",
+      // "/images/portfolio_imgs/water-2.jpg",
+    ],
+    role: "Motion Designer",
+    tools: ["After Effects", "Premiere Pro", "Cinema 4D"],
+    process:
+      "The project began with storyboarding and concept development. Each frame was meticulously crafted using advanced animation techniques and color grading to achieve the desired visual impact.",
+    results:
+      "The motion piece received 25K+ views and was featured on several design platforms, showcasing the effective use of animation in storytelling.",
+    year: "2025",
+  },
+  {
+    id: "edit3",
+    title: "Motion Edit",
+    category: "Motion Design",
+    description:
+      "A dynamic motion design piece showcasing fluid animations and transitions. This project demonstrates the seamless integration of design principles with video animation, creating a captivating visual experience.",
+    thumbnail: "/images/portfolio_imgs/edit3-thumb.jpg",
+    video: "/images/portfolio_imgs/edit3.mp4",
+    images: [
+      "/images/portfolio_imgs/edit3.mp4",
+      // "/images/portfolio_imgs/water.jpeg",
+      // "/images/portfolio_imgs/water-2.jpg",
+    ],
+    role: "Motion Designer",
+    tools: ["After Effects", "Premiere Pro", "Cinema 4D"],
+    process:
+      "The project began with storyboarding and concept development. Each frame was meticulously crafted using advanced animation techniques and color grading to achieve the desired visual impact.",
+    results:
+      "The motion piece received 25K+ views and was featured on several design platforms, showcasing the effective use of animation in storytelling.",
+    year: "2025",
   },
   // {
   //   id: "solstice-editorial",

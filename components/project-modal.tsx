@@ -58,13 +58,22 @@ export function ProjectModal({ project, onClose }: ProjectModalProps) {
 
         {/* Body */}
         <div className="space-y-6 px-4 py-6 sm:space-y-8 sm:px-6 sm:py-8 md:px-8">
-          {/* Main Image */}
+          {/* Main Image/Video */}
           <div className="overflow-hidden rounded-lg bg-secondary sm:rounded-xl">
-            <img
-              src={project.images[0]}
-              alt={`${project.title} mockup`}
-              className="h-auto w-full object-cover"
-            />
+            {project.video ? (
+              <video
+                src={project.video}
+                controls
+                className="h-auto w-full object-cover"
+                aria-label={`${project.title} video`}
+              />
+            ) : (
+              <img
+                src={project.images[0]}
+                alt={`${project.title} mockup`}
+                className="h-auto w-full object-cover"
+              />
+            )}
           </div>
 
           {/* Description */}
@@ -110,17 +119,29 @@ export function ProjectModal({ project, onClose }: ProjectModalProps) {
             </div>
           </div>
 
-          {/* Additional Images */}
+          {/* Additional Images/Videos */}
           <div className="grid gap-3 sm:grid-cols-2 sm:gap-4">
-            {project.images.slice(1).map((img, i) => (
-              <div key={i} className="overflow-hidden rounded-lg bg-secondary sm:rounded-xl">
-                <img
-                  src={img}
-                  alt={`${project.title} detail ${i + 2}`}
-                  className="h-auto w-full object-cover transition-transform duration-500 hover:scale-105"
-                />
-              </div>
-            ))}
+            {project.images.slice(1).map((media, i) => {
+              const isVideo = media.toLowerCase().endsWith('.mp4') || media.toLowerCase().endsWith('.webm') || media.toLowerCase().endsWith('.mov')
+              return (
+                <div key={i} className="overflow-hidden rounded-lg bg-secondary sm:rounded-xl">
+                  {isVideo ? (
+                    <video
+                      src={media}
+                      controls
+                      className="h-auto w-full object-cover"
+                      aria-label={`${project.title} detail video ${i + 2}`}
+                    />
+                  ) : (
+                    <img
+                      src={media}
+                      alt={`${project.title} detail ${i + 2}`}
+                      className="h-auto w-full object-cover transition-transform duration-500 hover:scale-105"
+                    />
+                  )}
+                </div>
+              )
+            })}
           </div>
 
           {/* Process */}
